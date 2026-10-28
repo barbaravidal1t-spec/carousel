@@ -1,0 +1,124 @@
+.footer-card {
+    background-color: #ffffff;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #222;
+}
+
+/* Distribución del contenido superior en columnas */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+/* Información institucional izquierda */
+.footer-main-info {
+    flex: 2;
+    min-width: 300px;
+}
+
+.footer-main-info strong {
+    display: block;
+    font-size: 1.1rem;
+    margin-top: 15px;
+    color: #111;
+}
+
+.footer-main-info span {
+    display: block;
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Redes y mapas organizados horizontalmente */
+.footer-redes {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer-redes a {
+    text-decoration: none;
+    color: #555;
+    font-size: 0.8rem;
+    text-align: center;
+    transition: color 0.2s ease;
+}
+
+.footer-redes a:hover {
+    color: #000;
+}
+
+.footer-redes img {
+    display: block;
+    margin: 0 auto 5px auto;
+    object-fit: contain;
+}
+
+/* Columna de navegación */
+.footer-nav {
+    flex: 1;
+    min-width: 184px;
+}
+
+.footer-nav h3 {
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: #111;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav li {
+    margin-bottom: 12px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #555;
+    font-size: 0.9rem;
+    transition: color 0.2s ease;
+}
+
+.footer-nav a:hover {
+    color: #000;
+}
+
+/* Línea divisoria */
+.footer-divider {
+    border: none;
+    border-top: 1px solid #eaeaea;
+    margin: 30px 0 20px 0;
+}
+
+/* Pie de página inferior (copyright y créditos) */
+.info-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-size: 0.85rem;
+    color: #777;
+}
+
+.derechos {
+    font-size: 13px;
+    line-height: 1.6;
+}
