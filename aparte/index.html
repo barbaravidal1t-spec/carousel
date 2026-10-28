@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel de Tarjetas Infinito</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="carousel-container">
+        <div class="carousel-track">
+            <!-- CLON de la Última Tarjeta (Tarjeta 4) -->
+            <div class="card clone">
+                <img src="./img/energias renovables.avif" alt="imagen er">
+                <div class="card-info"><h3>Energias Renovables</h3></div>
+            </div>
+
+            <!-- TARJETAS REALES -->
+            <div class="card">
+                <img src="./img/programacion.jpg" alt="imagen prog">
+                <div class="card-info"><h3>Programación</h3></div>
+            </div>
+            <div class="card">
+                <img src="./img/maestro m o.jpeg" alt="imagen mmo">
+                <div class="card-info"><h3>Maestro Mayor de Obras</h3></div>
+            </div>
+            <div class="card">
+                <img src="./img/energias renovables.avif" alt="imagen er">
+                <div class="card-info"><h3>Energias Renovables</h3></div>
+            </div>
+
+            <!-- CLON de la Primera Tarjeta (Tarjeta 1) -->
+            <div class="card clone">
+                <img src="./img/programacion.jpg" alt="imagen prog">
+                <div class="card-info"><h3>Programación</h3></div>
+            </div>
+        </div>
+        
+        <!-- Botones de Navegación -->
+        <button class="nav-btn prev">❮</button>
+        <button class="nav-btn next">❯</button>
+    </div>
+
+    <script src="./aparte.js"></script>
+</body>
+</html>
