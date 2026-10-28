@@ -1,0 +1,54 @@
+<footer class="footer-card">
+    <div class="footer-content">
+        <!-- Columna Izquierda: Logo, Título y Redes/Mapas -->
+        <div class="footer-main-info">
+            <div class="logo-footer">
+                <img src="./img/logo tecnica blanco y negro.png" alt="logo tecnica" width="100" height="100">
+            </div>
+            <strong>ESCUELA TÉCNICA MONTE HERMOSO</strong>
+            <span>PRECEPTORÍA</span>
+
+            <!-- Contenedor de redes y ubicaciones en fila -->
+            <div class="footer-redes">
+                <a href="https://www.instagram.com/tecnican1mtehso/" target="_blank">
+                    <img src="./img/Ícono de Instagram en negro sobre transparencia.png" alt="instagram" width="30" height="30">
+                    <p>Instagram</p>
+                </a>
+                <a href="https://www.facebook.com/p/Escuela-T%C3%A9cnica-Monte-Hermoso-100063068118533/?locale=es_LA" target="_blank">
+                    <img src="./img/Ícono negro de Facebook sobre transparencia.png" alt="facebook" width="30" height="30">
+                    <p>Facebook</p>
+                </a>
+                <a href="https://www.google.com/maps/place/Secundaria+Tecnica/@-38.9806231,-61.313876,17z/..." target="_blank">
+                    <img src="./img/ubicacion tr.png" alt="cede Iguazú" width="30" height="30">
+                    <p>Cede Iguazú</p>
+                </a>
+                <a href="https://www.google.com/maps/place/E.E.S.T.+N%C2%B01/@-38.9801894,-61.3102818,17z/..." target="_blank">
+                    <img src="./img/ubicacion tr.png" alt="cede Alfonsín" width="30" height="30">
+                    <p>Cede Alfonsín</p>
+                </a>
+            </div>
+        </div>
+
+        <!-- Columna Derecha: Enlaces de Navegación -->
+        <div class="footer-nav">
+            <h3>Navegación</h3>
+            <ul>
+                <li><a href="#bienvenida" class="inactive">INICIO</a></li>
+                <li><a href="#historia">HISTORIA</a></li>
+                <li><a href="#historia">NOTICIAS</a></li>
+                <li><a href="#calendario">CALENDARIO</a></li>
+                <li><a href="#alumnos">ALUMNOS</a></li>
+                <li><a href="#profesores">PROFESORES</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Línea divisoria -->
+    <hr class="footer-divider">
+
+    <!-- Sección Inferior -->
+    <div class="info-footer">
+        <p>PÁGINA CREADA POR LOS ALUMNOS DE 6TO PROG. 2026</p>
+        <span class="derechos">© 2026 E.E.S.T. N.º 1</span>
+    </div>
+</footer>
